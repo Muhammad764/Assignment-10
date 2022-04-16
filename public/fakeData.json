@@ -1,51 +1,51 @@
 [
   {
     "id": "1",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/11-Will-Burrard-Lucas.jpg",
     "name": "Sara Fitzgerald",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   },
   {
     "id": "2",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/13-Charles-Glatzer.jpg",
     "name": "Terrie Banks",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   },
   {
     "id": "3",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/14-Kirk-Norbury.jpg",
     "name": "Serena Rivers",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   },
   {
     "id": "4",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/2-Jon-Cornforth1.jpg",
     "name": "Barrera Haney",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   },
   {
     "id": "5",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/3-Jess-Findlay.jpg",
     "name": "Muriel Thomas",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   },
   {
     "id": "6",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/4-Stefano-Unterthiner.jpg",
     "name": "Sherrie Blevins",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   },
   {
     "id": "7",
-    "picture": "http://placehold.it/32x32",
+    "picture": "./Images/5-Tim-Laman.jpg",
     "name": "Shanna Fischer",
     "Price":"80$",
-    "Course Duration":"6 month"
+    "Duration":"6 month"
   }
 ]
