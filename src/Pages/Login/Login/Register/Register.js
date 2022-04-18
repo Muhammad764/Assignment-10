@@ -6,7 +6,7 @@ const Register = () => {
     const nameRef = useRef('')
     const emailRef = useRef('')
     const passwordRef = useRef('')
-    
+
     const navigate = useNavigate()
 
     const handleSubmit = event => {
@@ -23,7 +23,7 @@ const Register = () => {
     }
     return (
         <div>
-            <h2>Please Register</h2>
+            <h2 className='mt-3'>Please Register</h2>
             <div className='w-25 mx-auto mt-5'>
                   <Form onSubmit={handleSubmit}>
   <Form.Group className="mb-3" controlId="formBasicText">
