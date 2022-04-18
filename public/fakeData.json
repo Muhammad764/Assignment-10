@@ -1,51 +1,45 @@
 [
   {
     "id": "1",
-    "picture": "./Images/11-Will-Burrard-Lucas.jpg",
+    "picture": "./image/services1.webp",
     "name": "Sara Fitzgerald",
     "Price":"80$",
     "Duration":"6 month"
   },
   {
     "id": "2",
-    "picture": "./Images/13-Charles-Glatzer.jpg",
+    "picture": "./image/services2.webp",
     "name": "Terrie Banks",
-    "Price":"80$",
+    "Price":"70$",
     "Duration":"6 month"
   },
   {
     "id": "3",
-    "picture": "./Images/14-Kirk-Norbury.jpg",
+    "picture": "./image/serviceslast.webp",
     "name": "Serena Rivers",
-    "Price":"80$",
-    "Duration":"6 month"
+    "Price":"Free",
+    "Duration":"2 hour"
   },
   {
     "id": "4",
-    "picture": "./Images/2-Jon-Cornforth1.jpg",
+    "picture": "./image/services5.png",
     "name": "Barrera Haney",
     "Price":"80$",
     "Duration":"6 month"
   },
   {
     "id": "5",
-    "picture": "./Images/3-Jess-Findlay.jpg",
+    "picture": "./image/services8.jpg",
     "name": "Muriel Thomas",
     "Price":"80$",
-    "Duration":"6 month"
+    "Duration":"3 month"
   },
   {
     "id": "6",
-    "picture": "./Images/4-Stefano-Unterthiner.jpg",
+    "picture": "./image/services7.png",
     "name": "Sherrie Blevins",
-    "Price":"80$",
-    "Duration":"6 month"
-  },
-  {
-    "id": "7",
-    "picture": "./Images/5-Tim-Laman.jpg",
-    "name": "Shanna Fischer",
-    "Price":"80$",
-    "Duration":"6 month"
+    "Price":"60$",
+    "Duration":"3 month"
   }
+  
 ]

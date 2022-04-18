@@ -1,0 +1,14 @@
+.description-container{
+    padding-top: 110px;
+}
+.description-container img{
+    width: 400px;
+    padding-bottom: 10px;
+    
+}
+@media only screen and (max-width:576px){
+    .description-container{
+     grid-template-columns: repeat(1,1fr);
+
+    }
+}
