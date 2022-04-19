@@ -9,7 +9,7 @@ const Register = () => {
     const [
   createUserWithEmailAndPassword,
   user
-  ] = useCreateUserWithEmailAndPassword(auth);
+  ] = useCreateUserWithEmailAndPassword(auth ,{sendEmailVerification:true});
   
   
     

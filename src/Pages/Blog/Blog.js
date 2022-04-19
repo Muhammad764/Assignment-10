@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div style={{margin :"65px"}}>
+        <div style={{margin :"80px"}}>
             <p className='text-primary h5'>1 Difference between authorization and authentication
 
             </p>
