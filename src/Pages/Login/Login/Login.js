@@ -10,7 +10,7 @@ const Login = () => {
     const passwordRef = useRef('')
     const navigate = useNavigate()
   
-   const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+   const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
     
 
   const location = useLocation()
@@ -48,8 +48,8 @@ const Login = () => {
 
     
     return (
-        <div style={{width :"450px"}} className='shadow  mx-auto mb-5 mt-2 rounded'>
-            <h2 className='text-primary my-3'>Please Login</h2>
+        <div style={{width :"450px"}} className='shadow  mx-auto mb-5 mt-3 rounded'>
+            <h2 className='text-primary my-3 pt-4'>Please Login</h2>
             <div className='w-75 mx-auto mt-5'>
                   <Form onSubmit={handleSubmit}>
  <Form.Group className="mb-3" controlId="formBasicEmail">

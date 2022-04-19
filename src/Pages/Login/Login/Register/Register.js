@@ -25,7 +25,7 @@ const Register = () => {
         const email = emailRef.current.value
         const password = passwordRef.current.value
         
-        createUserWithEmailAndPassword(name,email,password)
+        createUserWithEmailAndPassword(email,password)
         
     }
 
@@ -41,8 +41,8 @@ const Register = () => {
 
     return (
         <div style={{width :"450px"}} className='shadow  mx-auto mb-5 mt-2 rounded'>
-            <h2 className='mt-3 text-primary'>Please Register</h2>
-            <div className='w-75 mx-auto mt-5'>
+            <h2 className='mt-3 text-primary pt-3'>Please Register</h2>
+            <div className='w-75 mx-auto mt-4'>
                   <Form onSubmit={handleSubmit}>
   <Form.Group className="mb-3" controlId="formBasicText">
 
