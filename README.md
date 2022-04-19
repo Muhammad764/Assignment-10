@@ -1,6 +1,6 @@
 # Dream-Dot-Studio
 
-[Dream Dot Studio](https://profound-pothos-792e1e.netlify.app/).
+[Dream Dot Studio][https://profound-pothos-792e1e.netlify.app/](https://profound-pothos-792e1e.netlify.app/).
 
 * Create a website for photography studio
 * apply authentication system
