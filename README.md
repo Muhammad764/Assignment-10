@@ -1,6 +1,6 @@
 # Dream-Dot-Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Dream Dot Studio](https://profound-pothos-792e1e.netlify.app/).
 
 * Create a website for photography studio
 * apply authentication system
@@ -8,9 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * In Login page apply toast and reset password also
 * make website responsive
 
-## Available Scripts
+## Bootstrap & React
 
-In the project directory, you can run:
+In the project use Bootstrap and react 
 
 ### `npm start`
 

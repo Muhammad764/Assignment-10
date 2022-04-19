@@ -2,44 +2,50 @@
   {
     "id": "1",
     "picture": "./image/services1.webp",
-    "name": "Sara Fitzgerald",
-    "Price":"80$",
-    "Duration":"6 month"
+    "name": "Digital Marketing",
+    "Price":"$80",
+    "Duration":"6 month",
+    "Description":"In this course you will learn how to degitize photography on online plat from"
   },
   {
     "id": "2",
     "picture": "./image/services2.webp",
-    "name": "Terrie Banks",
-    "Price":"70$",
-    "Duration":"6 month"
+    "name": "Photography Portfolio",
+    "Price":"$60",
+    "Duration":"4 month",
+    "Description":"To much excited to creat about a portfolio with photography then this course is for you"
   },
   {
     "id": "3",
     "picture": "./image/serviceslast.webp",
-    "name": "Serena Rivers",
+    "name": "Common Mistakes",
     "Price":"Free",
-    "Duration":"2 hour"
+    "Duration":"2 hour",
+    "Description":"this course you will learn how to solve common mistakes on photography "
   },
   {
     "id": "4",
     "picture": "./image/services5.png",
-    "name": "Barrera Haney",
-    "Price":"80$",
-    "Duration":"6 month"
+    "name": "Photography Service",
+    "Price":"$40",
+    "Duration":"2 month",
+    "Description":"Service the customer with your photography and make customer manageable don't worry im here"
   },
   {
     "id": "5",
     "picture": "./image/services8.jpg",
-    "name": "Muriel Thomas",
-    "Price":"80$",
-    "Duration":"3 month"
+    "name": "Photography seance",
+    "Price":"$50",
+    "Duration":"3 month",
+    "Description":"To manage your photography seance not clicking photo makes you photographer join with me for learning."
   },
   {
     "id": "6",
     "picture": "./image/services7.png",
-    "name": "Sherrie Blevins",
-    "Price":"60$",
-    "Duration":"3 month"
+    "name": "Photography Marketing",
+    "Price":"$60",
+    "Duration":"4 month",
+    "Description":"Photography marketing is important for every photographer.In this course you learn this."
   }
   
 ]
