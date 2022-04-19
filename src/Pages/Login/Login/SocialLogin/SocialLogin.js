@@ -5,7 +5,7 @@ import auth from '../../../../firebase.init';
 
 const SocialLogin = () => {
 
-    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    const [signInWithGoogle, user,error] = useSignInWithGoogle(auth);
     const navigate = useNavigate()
     let errorElement;
 
@@ -21,7 +21,7 @@ const SocialLogin = () => {
     
     return (
         <div>
-        <div className='d-flex align-items-center mb-5'>
+        <div className='d-flex align-items-center mb-4'>
             <div style={{height :"1px"}} className='w-50 bg-primary '></div>
             <div  className='px-2'>OR</div>
             <div style={{height :"1px"}} className='w-50 bg-primary '></div>

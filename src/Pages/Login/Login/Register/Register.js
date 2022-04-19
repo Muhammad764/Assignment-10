@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../../firebase.init'
 import SocialLogin from '../SocialLogin/SocialLogin';
 
@@ -9,7 +9,9 @@ const Register = () => {
     const [
   createUserWithEmailAndPassword,
   user
-    ] = useCreateUserWithEmailAndPassword(auth);
+  ] = useCreateUserWithEmailAndPassword(auth);
+  
+  
     
     const nameRef = useRef('')
     const emailRef = useRef('')
@@ -29,15 +31,18 @@ const Register = () => {
 
     const navigateRegister = event => {
         navigate('/login')
-    }
+  }
+  
 
     if (user) {
         navigate('/home')
-    }
+   }
+  
+
     return (
-        <div>
-            <h2 className='mt-3'>Please Register</h2>
-            <div className='w-25 mx-auto mt-5'>
+        <div style={{width :"450px"}} className='shadow  mx-auto mb-5 mt-2 rounded'>
+            <h2 className='mt-3 text-primary'>Please Register</h2>
+            <div className='w-75 mx-auto mt-5'>
                   <Form onSubmit={handleSubmit}>
   <Form.Group className="mb-3" controlId="formBasicText">
 
@@ -52,14 +57,13 @@ const Register = () => {
     
   <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
   </Form.Group>
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
-  </Form.Group>
+  
   <Button className='w-100 mb-5' variant="primary" type="submit">
-    Submit
+    Register
   </Button>
    </Form>
           <p>Already have an account? <Link to="/login" className='fw-bold text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Login</Link></p>
+         
           
           <SocialLogin></SocialLogin>
             </div>

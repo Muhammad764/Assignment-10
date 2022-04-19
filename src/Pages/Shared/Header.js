@@ -19,8 +19,8 @@ const Header = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="ms-auto py-2">
-      <Nav.Link href="home#services">Services</Nav.Link>
-      <Nav.Link href="#pricing">Blogs</Nav.Link>
+      <Nav.Link as={Link} to="home#services">Services</Nav.Link>
+      <Nav.Link as={Link} to="blog">Blogs</Nav.Link>
       <Nav.Link as={Link} to="about">About</Nav.Link>
                 {
                   user ?
