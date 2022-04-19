@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Dream-Dot-Studio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+* Create a website for photography studio
+* apply authentication system
+* In the header put Services,Blog,About,Login
+* In Login page apply toast and reset password also
+* make website responsive
 
 ## Available Scripts
 
